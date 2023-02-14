@@ -3,18 +3,18 @@
   "name": "ChatGPT Clipboard Extension",
   "version": "1.0",
   "description": "An extension for copying ChatGPT conversations as Markdown format to paste any editor",
-  "permissions": [
-    "clipboardWrite"
-  ],
   "host_permissions": [
-      "https://chat.openai.com/*"
+    "https://chat.openai.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/chat/*"],
-      "js": ["main.js"],
+      "matches": [
+        "https://chat.openai.com/chat/*"
+      ],
+      "js": [
+        "popup.js"
+      ],
       "run_at": "document_end"
     }
   ]
 }
-
