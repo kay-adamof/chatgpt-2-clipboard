@@ -1,3 +1,4 @@
+// main.js
 document.addEventListener("DOMContentLoaded", function () {
   var conversation = document.querySelector("main");
   var chats = conversation.querySelectorAll(".items-start");
