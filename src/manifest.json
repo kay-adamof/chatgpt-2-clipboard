@@ -12,7 +12,7 @@
         "https://chat.openai.com/chat/*"
       ],
       "js": [
-        "main.js"
+        "content_scripts.js"
       ],
       "run_at": "document_end"
     }
