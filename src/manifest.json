@@ -9,9 +9,6 @@
   "permissions": [
     "clipboardWrite"
   ],
-  "background": {
-    "service_worker": ""
-  },
   "content_scripts": [
     {
       "matches": [
