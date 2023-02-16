@@ -10,7 +10,7 @@
     "clipboardWrite"
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": ""
   },
   "content_scripts": [
     {
